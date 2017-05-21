@@ -1,0 +1,19 @@
+CREATE TABLE MODEL
+(
+	ID NUMBER(19) NOT NULL,
+	VAL VARCHAR2(50) NOT NULL,
+);
+
+CREATE TABLE Release_date_type
+(
+	id NUMBER(19) NOT NULL,
+	acct_Num VARCHAR2(50) NOT NULL,
+	description VARCHAR2(50) NOT NULL
+);
+
+CREATE TABLE Cache_Media
+(
+	id NUMBER(19) NOT NULL,
+	acct_Num VARCHAR2(50) NOT NULL,
+	description VARCHAR2(50) NOT NULL
+);
